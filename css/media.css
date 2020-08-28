@@ -1,0 +1,124 @@
+@media (max-width: 1024px){
+    .icon_arrow{
+        display: none;
+    }
+    .menu ul li {
+        padding: 10px;
+    }
+}
+@media (max-width: 768px){
+    .header {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .logo {
+        margin-left: 15px;
+    }
+    .menu ul {
+        padding: 0;
+    }
+    .menu ul li{
+        padding: 5px;
+        text-align: center;
+    }
+    .contact-button a {
+        padding: 10px;
+    }
+    .icon_arrow{
+        display: none;
+    }
+    .content{
+        width: 80%;
+    }
+    .promo_text h2 {
+        font-size: 36px;
+    }
+    .promo-button a{
+        text-align: center;
+    }
+    .works img {
+        width: 45%;
+    }
+    .form-inputs input:not(:last-child) {
+        width: 43%;
+    }
+    .form-inputs textarea {
+        width: 93%;
+    }
+    .works h3 {
+        font-size: 36px;
+        width:100%;
+        text-align: center;
+    }
+    .contacts p, h3 {
+        text-align: center;
+    }
+    .promo_text {
+        padding-right: 50px;
+        margin-left: 0;
+    }
+    .left, .right{
+        display: none;
+    }
+    .promo_slider{
+        flex-direction: column;
+    }
+    .promo_slider .slider-item {
+        display: flex;
+    }
+}
+@media (max-width: 425px){
+    .menu ul{
+        display: none;
+    }
+    .promo_slider .slider-item {
+        align-items: flex-start;
+    }
+    .promo-button{
+        margin-top: 50px;
+    }
+    .works img {
+        width: 80%;
+    }
+    .form-inputs input:not(:last-child) {
+        width: 100%;
+    }
+    .promo_slider li{
+        flex-direction: column;
+    }
+    .promo_text{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .nav_toggle{
+        display: block;
+        position: fixed;
+        right: 40px;
+        margin: 40px;
+        padding: 0;
+    }
+    .header {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 375px){
+    .logo{
+        top: 15px;
+        right: 40%;
+    }
+    .language{
+        margin: 30px 20px;
+    }
+    .nav_toggle{
+        right: 10px;
+        top: 10px;
+    }
+    .social ul li {
+        padding: 0 30px;
+    }
+    .nav_toggle{
+        margin: 30px;
+    }
+}
